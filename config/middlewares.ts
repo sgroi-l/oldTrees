@@ -5,7 +5,7 @@ export default [
   {
     name: "strapi::cors",
     config: {
-      origin: ["*"],
+      origin: ["*", "https://old-trees.vercel.app/"],
       methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
       allowedHeaders: ["Content-Type", "Authorization"],
     },
