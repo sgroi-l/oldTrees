@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "treess",
+  "info": {
+    "singularName": "trees",
+    "pluralName": "treess",
+    "displayName": "Trees",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Species": {
+      "type": "string"
+    },
+    "Age": {
+      "type": "integer"
+    },
+    "Latitude": {
+      "type": "decimal"
+    },
+    "Longitude": {
+      "type": "decimal"
+    }
+  }
+}
