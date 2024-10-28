@@ -72,7 +72,7 @@ const treeIcon = L.icon({
 });
 
 // Fetch data from Strapi backend
-fetch("http://localhost:1337/api/treess")
+fetch("https://oldtrees.onrender.com/api/treess")
   .then((response) => response.json())
   .then((data) => {
     console.log(data); 
