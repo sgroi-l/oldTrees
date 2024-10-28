@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "DepartureMono";
+  src:
+    url("./fonts/DepartureMono-Regular.woff2") format("woff2"),
+    url("./fonts/DepartureMono-Regular.woff") format("woff"),
+    url("./fonts/DepartureMono-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "DepartureMono", monospace;
+}
+
+.leaflet-popup-content {
+  font-family: "DepartureMono", monospace;
+}
+
+#map-title {
+  font-family: "DepartureMono", monospace;
+  text-align: center;
+  font-size: 5rem;
+  color: rgb(34, 54, 15);
+}
+
+.button-container {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  margin: 1rem; /* Center vertically (if necessary) */
+}
+
+.c-button {
+  font-family: "DepartureMono", monospace;
+  background-color: rgb(34, 54, 15);
+  color: white; /* White text */
+  border: none; /* No border */
+  padding: 10px 20px; /* Some padding */
+  text-align: center; /* Centered text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Make it inline */
+  font-size: 16px; /* Bigger text */
+  margin: 0 auto; /* Some margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition:
+    background-color 0.3s,
+    transform 0.1s ease; /* Smooth background color transition */
+}
+
+/* Optional: Add hover effect */
+.c-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.c-button:active {
+  transform: translateY(2px); /* Move the button down by 2px */
+  transition: transform 0.1s ease; /* Smooth transition */
+}
